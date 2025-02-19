@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "GymApi.Controllers.SyncController",
+    "Method": "SyncUsers",
+    "RelativePath": "Sync/sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBuilding",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymApi.Controllers.SyncController",
+    "Method": "UploadFile",
+    "RelativePath": "Sync/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymApi.Controllers.UserController",
+    "Method": "addUser",
+    "RelativePath": "User/sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBuilding",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
